@@ -22,9 +22,9 @@ function Feedback() {
         mode: "onBlur"
     })
 
-    const onSubmit = ()=> (data: IFeedback[]) => {
+    const onSubmit =  (data: IFeedback[]) =>  {
         console.log(data)
-        const baseURL = "http://localhost:3004/feedback";
+        const baseURL = "http://localhost:3004/feedback/";
         axios
             .post(baseURL, data)
             .then((response) => {

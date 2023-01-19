@@ -8,7 +8,7 @@ const Gallery = () => {
             <h1 className={style.gallery__title}>Gallery</h1>
             <div className={style.grid}>
                 <div className={style.grid__content}>
-                    <div>
+                    <div className={style.grid__content__block__1}>
                         <p>By the end of this course, you will be able to develop and publish your very own Google Chrome extension! In this course we will focus on coding exercises and projects.</p>
                     </div>
                     <div className={style.grid__content__block__2}>
