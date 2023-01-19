@@ -1,9 +1,11 @@
 import React from 'react';
-
 import style from '../styles/effect.module.scss'
+import {Ieffect} from "../types/Ieffect";
 
 
-const Effect = (props : object) => {
+const Effect = (props : Ieffect) => {
+    console.log(typeof props.props)
+    console.log(props)
     // Я получаю положения Эффекта например props={{bottom: '207px', left: '83px'}}
 
     return (

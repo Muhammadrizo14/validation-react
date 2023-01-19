@@ -1,7 +1,10 @@
 import React from 'react';
 import style from '../styles/program.module.scss'
+import {Iprogram} from "../types/Iprogram";
 
-const Program = ({program,programName }: string) => {
+
+
+const Program = ({program,programName }: Iprogram) => {
     return (
         <div className={style.program}>
             <img className={style.program__image} src={program} alt=""/>

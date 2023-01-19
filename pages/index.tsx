@@ -10,7 +10,6 @@ import Question from "../Components/question";
 import Review from "../Components/review";
 import Gallery from "../Components/Gallery";
 import Footer from "../Components/footer";
-import AOS from 'aos';
 
 
 const inter = Inter({subsets: ['latin']})

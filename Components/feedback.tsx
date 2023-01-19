@@ -3,8 +3,6 @@ import axios, {AxiosError} from "axios";
 import {useState} from "react";
 import IFeedback from "./feedback.type";
 import styles from '../styles/Feedback.module.scss'
-import * as yup from 'yup'
-import {userSchema} from '../Validations/uservalidations'
 
 
 function Feedback() {
@@ -24,7 +22,7 @@ function Feedback() {
         mode: "onBlur"
     })
 
-    const onSubmit = (data: IFeedback[]) => {
+    const onSubmit = ()=> (data: IFeedback[]) => {
         console.log(data)
         const baseURL = "http://localhost:3004/feedback";
         axios
@@ -75,7 +73,7 @@ function Feedback() {
                         placeholder="E-mail"
                     />
                     <div>
-                        {errors?.email && <p className={styles.Inter}>{errors?.email?.message}</p>}
+                        {errors?.email && <p className={styles.Inter}>{"Поле обезятельно к заполнению" || errors?.email?.message}</p>}
                     </div>
                     <input
                         className={styles.contactus__wrapper__input}
@@ -89,7 +87,7 @@ function Feedback() {
                         placeholder="Name"
                     />
                     <div>
-                        {errors?.firstname && <p className={styles.Inter}>{errors.firstname.message}</p>}
+                        {errors?.firstname && <p className={styles.Inter}>{"Поле обезятельно к заполнению" || errors?.firstname?.message}</p>}
                     </div>
                     <input
                         className={styles.contactus__wrapper__input}
