@@ -14,7 +14,7 @@ const Programs = () => {
                 <p className={style.programs__subtitle}>By the end, you’ll have the portfolio and interview skills you need to start your new career.</p>
                 <div className={style.programs__wrap}>
                     <Program program='./programs/angular.png' programName='Angular' />
-                    <Program program='./programs/React.png' programName='React' />
+                    <Program program='./programs/react.png' programName='React' />
                     <Program program='./programs/vue.png' programName='Vue.js' />
                     <Program program='./programs/js.png' programName='JavaScript' />
                 </div>
