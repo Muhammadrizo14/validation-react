@@ -1,0 +1,31 @@
+.accardion {
+  width: 703px;
+  padding: 27px 20px;
+  border: 2px solid transparent;
+  border-image: linear-gradient( rgba(21, 191, 253, 0.7), rgba(156, 55, 253, 0.7));
+  border-image-slice: 1;
+  margin: 27px 0;
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+    &__reopen {
+      cursor: pointer;
+      padding: 5px;
+    }
+  }
+  &__text {
+    font-style: normal;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+  }
+}

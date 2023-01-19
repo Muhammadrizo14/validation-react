@@ -1,0 +1,32 @@
+.mentors__card {
+  &:nth-child(2) {
+    position: relative;
+    bottom: 53px;
+  }
+  &__image {
+    border-radius: 50%;
+    border: 2px solid rgba(21, 191, 253, 0.7);
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &__title {
+      padding: 16px 0 4px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      text-align: center;
+      color: #FFFFFF;
+
+    }
+    &__subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #FFFFFF;
+      width: 185px;
+      margin: 0 auto;
+    }
+  }
+}

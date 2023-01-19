@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "ClashDisplay";
+  src: local("ClashDisplay"),
+  url("../fonts/ClashDisplaySemibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+  url("../fonts/Inter.ttf") format("truetype");
+}
+
+
+.navbar__wrapper {
+  background: transparent;
+  .container {
+    display: flex;
+    max-width: 1223px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      li {
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        color: #fff;
+        margin-right: 48px;
+        list-style: none;
+        font-family: "Inter", sans-serif;
+        &:last-child {
+          margin-right: 0;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+}

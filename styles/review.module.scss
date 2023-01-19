@@ -1,0 +1,78 @@
+.review {
+  max-width: 1223px;
+  margin: 0 auto;
+  padding-top: 180px;
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 48px;
+  }
+  &__info {
+    display: flex;
+    width: 100%;
+    &__text {
+      padding-right: 23px;
+      &__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+      }
+      &__subtitle {
+        font-style: normal;
+        padding-top: 17px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 392px;
+      }
+    }
+    &__slider {
+      width: 100%;
+      &__wrapp {
+        display: flex;
+        justify-content: space-between;
+        &__pagination {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          color: #FFFFFF;
+          sub {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+        }
+        &__btns {
+          display: flex;
+          align-items: center;
+          button {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border: 1px solid rgba(21, 191, 253, 0.7);
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 14px 10px 14px;
+            &:first-child {
+              margin-right: 24px;
+            }
+          }
+        }
+      }
+      &__slides {
+        padding-top: 21px;
+        display: flex;
+        align-items: center;
+        &__slide {
+          &:nth-child(2) {
+            margin: 0 24px;
+          }
+        }
+      }
+    }
+  }
+}

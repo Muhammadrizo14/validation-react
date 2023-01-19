@@ -1,0 +1,60 @@
+.program {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 9px 15px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  margin: 0 24px;
+  width: 181px;
+  text-align: center;
+  border: 1px solid rgba(21, 191, 253, 0.7);
+  clip-path: polygon(100% 0, 100% 84%, 87% 100%, 0 100%, 0 0);
+  position: relative;
+
+
+  &:after {
+    //content: "";
+    //width: 47px;
+    //position: absolute;
+    /* height: 30px; */
+    //border: 2px solid rgba(21, 191, 253, 0.7);
+    //-webkit-clip-path: polygon(162% 91%, -51% 100%, 100% 28%);
+    //clip-path: polygon(162% 91%, -51% 100%, 100% 28%);
+    //top: 90%;
+    //left: 142px;
+    //transform: rotate(-54deg);
+
+
+    // another code
+
+    content: "";
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    transform: rotate(124deg);
+    width: 0;
+    height: 0;
+    border-left: 21px solid transparent;
+    border-right: 31px solid transparent;
+    border-top: 1px solid rgba(21, 191, 253, 0.7);
+    clear: both;
+
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__image {
+    width: 163px;
+    height: 136px;
+    margin-bottom: 16px;
+
+  }
+}

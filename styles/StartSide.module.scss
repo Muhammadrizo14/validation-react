@@ -1,0 +1,49 @@
+.start__container {
+  padding-top: 116px;
+  max-width: 1223px;
+  margin: 0 auto;
+  .start__info {
+    display: flex;
+    align-items: center;
+    &__title {
+      font-family: "ClashDisplay", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 150px;
+      color: #FFFFFF;
+    }
+    &__subtitle {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      width: 403px;
+      padding-left: 57px;
+      color: #FFFFFF;
+    }
+    &__button {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      cursor: pointer;
+      border: 0;
+      font-size: 20px;
+      text-align: center;
+      color: #0A1482;
+      margin-right: 24px;
+      padding: 24px 32px;
+      background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+      border-radius: 8px;
+    }
+  }
+
+  .curses {
+    font-family: "ClashDisplay", sans-serif;
+    font-style: normal;
+    padding-right: 59px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+}

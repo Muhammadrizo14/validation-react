@@ -1,0 +1,18 @@
+
+.wrapper {
+  background: #0C102D;
+  min-height: 100%;
+  .fullpage {
+    background-color: #0C102D;
+    height: 66vh;
+    background-image: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0C102D 97.38%);
+
+    &__bg {
+      background-image: url("../public/bg.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+}

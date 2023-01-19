@@ -1,0 +1,33 @@
+.programs__container {
+  max-width: 60%;
+  padding-top: 179px;
+  margin: 0 auto;
+  padding-bottom: 184px;
+  .programs {
+    &__title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 72px;
+      color: #FFFFFF;
+      max-width: 543px;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 16px;
+    }
+    &__subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-bottom: 54px;
+      width: 432px;
+      margin: 0 auto;
+    }
+    &__wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

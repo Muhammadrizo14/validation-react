@@ -1,0 +1,104 @@
+.Inter {
+  font-family: "Inter", sans-serif;
+}
+
+.success {
+  font-family: "Inter", sans-serif;
+  color: green;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.error {
+  font-family: "Inter", sans-serif;
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.contactus {
+  background: #0C102D;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 148px;
+
+  &__container {
+    width: 1224px;
+    padding-bottom: 56px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+
+    .contactus__wrapper {
+      width: 493px;
+      margin: 0 auto;
+      &__title {
+        padding-top: 56px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+      }
+
+      &__subtitle {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-bottom: 24px;
+      }
+
+      &__input {
+        width: 100%;
+        outline: none;
+        border: 2px solid rgba(21, 191, 253, 0.7);
+        padding: 24px;
+        font-family: 'Inter', sans-serif;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 16px 0;
+        color: #fff;
+        &::placeholder {
+          color: #A2CBFB;
+        }
+      }
+
+      &__button {
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        padding: 24px;
+        font-size: 20px;
+        color: #0A1482;
+        background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+        cursor: pointer;
+        border: 0;
+        border-radius: 8px;
+        &[disabled] {
+          cursor: auto;
+          background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+          opacity: 0.4;
+        }
+        &:active {
+          color: #FFFFFF;
+        }
+        &:hover {
+          color: #3B48D0;
+        }
+      }
+    }
+
+  }
+}

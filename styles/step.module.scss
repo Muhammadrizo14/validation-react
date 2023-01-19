@@ -1,0 +1,12 @@
+.step {
+  max-width: 1223px;
+  margin: 0 auto;
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 56px;
+    font-size: 72px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

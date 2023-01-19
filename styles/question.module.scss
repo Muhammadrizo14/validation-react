@@ -1,0 +1,35 @@
+.question {
+  padding-top: 180px;
+  max-width: 1223px;
+  margin: 0 auto;
+  &__title {
+    max-width: 641px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 56px;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    &__question__mark {
+      &__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        padding-bottom: 56px;
+        font-size: 16px;
+        color: #FFFFFF;
+      }
+      &__image {
+        width: 344px;
+
+      }
+    }
+    &__questions {
+
+    }
+  }
+}

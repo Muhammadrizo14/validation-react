@@ -1,0 +1,36 @@
+.effect {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+  &__image__shadow {
+    width: 356px;
+    height: 356px;
+
+    //  Чтобы юзер не мог сделать drag
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  &__image__star {
+    width: 140px;
+    //  Чтобы юзер не мог сделать drag
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    user-select: none;
+  }
+}
